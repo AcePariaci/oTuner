@@ -1,0 +1,70 @@
+﻿La génération a démarré 11/07/2014 16:35:35.
+     1>Projet "C:\Cours\Workspaces\C++\Accordeur\oTuner\src\OpenTuner.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Debug\OpenTuner.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ISupport /ItartiniCore /Ifft /Ifft\kiss_fft /Ifft\kiss_fft\tools /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D FIXED_POINT=32 /D int32_t=__int32 /D int64_t=__int64 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"stdafx.h" /Fp".\Debug\OpenTuner.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\stdafx.cpp(86): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\stdafx.cpp(87): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ISupport /ItartiniCore /Ifft /Ifft\kiss_fft /Ifft\kiss_fft\tools /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D FIXED_POINT=32 /D int32_t=__int32 /D int64_t=__int64 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"stdafx.h" /Fp".\Debug\OpenTuner.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt OpenTuner.cpp Support\BscBblDlg.cpp Support\cBscFileVersion.cpp OpenTunerCore.cpp OpenTunerDlg.cpp
+         OpenTunerDlg.cpp
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\opentunerdlg.cpp(273): warning C4244: '/=' : conversion de 'double' en 'LONG', perte possible de données
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\opentunerdlg.cpp(450): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\opentunerdlg.cpp(451): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\opentunerdlg.cpp(451): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\opentunerdlg.cpp(451): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+         OpenTunerCore.cpp
+         cBscFileVersion.cpp
+         BscBblDlg.cpp
+         OpenTuner.cpp
+         Génération de code en cours...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ISupport /ItartiniCore /Ifft /Ifft\kiss_fft /Ifft\kiss_fft\tools /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D FIXED_POINT=32 /D int32_t=__int32 /D int64_t=__int64 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt Testing\WaveFile.cpp
+         WaveFile.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ISupport /ItartiniCore /Ifft /Ifft\kiss_fft /Ifft\kiss_fft\tools /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D FIXED_POINT=32 /D int32_t=__int32 /D int64_t=__int64 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt tartini_core\tartinilib\tartini_core.c FFT\kiss_fft\kiss_fft.c FFT\kiss_fft\tools\kiss_fftr.c
+         kiss_fftr.c
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\fft\kiss_fft\tools\kiss_fftr.c(48): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\fft\kiss_fft\tools\kiss_fftr.c(48): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+         kiss_fft.c
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\fft\kiss_fft\kiss_fft.c(359): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\fft\kiss_fft\kiss_fft.c(359): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+         tartini_core.c
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\tartini_core\tartinilib\tartini_core.c(65): warning C4305: 'fonction' : troncation de 'double' à 'float'
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\tartini_core\tartinilib\tartini_core.c(73): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\tartini_core\tartinilib\tartini_core.c(97): warning C4244: '*=' : conversion de 'double' en 'float', perte possible de données
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\tartini_core\tartinilib\tartini_core.c(130): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+     1>c:\cours\workspaces\c++\accordeur\otuner\src\tartini_core\tartinilib\tartini_core.c(132): warning C4018: '<' : incompatibilité signed/unsigned
+         Génération de code en cours...
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0809" /nologo /fo"Debug\OpenTuner.res" OpenTuner.rc 
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OpenTuner.exe.embed.manifest.res" Debug\OpenTuner_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../src/Debug/OpenTuner.exe" /INCREMENTAL /NOLOGO User32.lib version.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenTuner.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Cours\Workspaces\C++\Accordeur\oTuner\src\Debug\OpenTuner.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\OpenTuner.lib" /MACHINE:X86 Debug\OpenTuner.res
+         Debug\OpenTuner.exe.embed.manifest.res
+         .\Debug\OpenTuner.obj
+         .\Debug\StdAfx.obj
+         .\Debug\WaveFile.obj
+         .\Debug\BscBblDlg.obj
+         .\Debug\cBscFileVersion.obj
+         .\Debug\tartini_core.obj
+         .\Debug\kiss_fft.obj
+         .\Debug\kiss_fftr.obj
+         .\Debug\OpenTunerCore.obj
+         .\Debug\OpenTunerDlg.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\OpenTuner.exe.embed.manifest" /manifest Debug\OpenTuner.exe.intermediate.manifest
+         Toutes les sorties sont à jour.
+       LinkEmbedManifest:
+         Toutes les sorties sont à jour.
+         OpenTuner.vcxproj -> C:\Cours\Workspaces\C++\Accordeur\oTuner\src\Debug\OpenTuner.exe
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\OpenTuner.bsc" Debug\OpenTuner.sbr Debug\StdAfx.sbr Debug\WaveFile.sbr Debug\BscBblDlg.sbr Debug\cBscFileVersion.sbr Debug\tartini_core.sbr Debug\kiss_fft.sbr Debug\kiss_fftr.sbr Debug\OpenTunerCore.sbr Debug\OpenTunerDlg.sbr
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug\OpenTuner.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\OpenTuner.lastbuildstate".
+     1>Génération du projet "C:\Cours\Workspaces\C++\Accordeur\oTuner\src\OpenTuner.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:08.62

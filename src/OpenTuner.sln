@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenTuner", "OpenTuner.vcxproj", "{BD9A10DA-7902-7FC7-4173-56BEA2416300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		fDebug|Win32 = fDebug|Win32
+		fRelease|Win32 = fRelease|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD9A10DA-7902-7FC7-4173-56BEA2416300}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD9A10DA-7902-7FC7-4173-56BEA2416300}.Debug|Win32.Build.0 = Debug|Win32
+		{BD9A10DA-7902-7FC7-4173-56BEA2416300}.fDebug|Win32.ActiveCfg = fDebug|Win32
+		{BD9A10DA-7902-7FC7-4173-56BEA2416300}.fDebug|Win32.Build.0 = fDebug|Win32
+		{BD9A10DA-7902-7FC7-4173-56BEA2416300}.fRelease|Win32.ActiveCfg = fRelease|Win32
+		{BD9A10DA-7902-7FC7-4173-56BEA2416300}.fRelease|Win32.Build.0 = fRelease|Win32
+		{BD9A10DA-7902-7FC7-4173-56BEA2416300}.Release|Win32.ActiveCfg = Release|Win32
+		{BD9A10DA-7902-7FC7-4173-56BEA2416300}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

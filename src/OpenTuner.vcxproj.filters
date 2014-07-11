@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{647d5d72-f6a9-4314-8073-d32c3600cd49}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f3dfab6e-64bd-403f-a50f-7c129de6e5d6}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ff9116ff-02a4-4c0a-8d57-5157de0d5de2}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\BMPs">
+      <UniqueIdentifier>{2fa5ada2-22e8-4cef-b451-23bb784b5603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{9aa91b2e-3235-4e77-97c8-5c7b18766666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tartini">
+      <UniqueIdentifier>{febbe560-019b-482f-9116-7c4e105c8d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tartini\h">
+      <UniqueIdentifier>{eabecb1d-008d-4d4f-a7d6-2d68579ad5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FFT">
+      <UniqueIdentifier>{4dd6d308-a851-4323-8a8d-f4a749cb148f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenTuner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Testing\WaveFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Support\BscBblDlg.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Support\cBscFileVersion.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="tartini_core\tartinilib\tartini_core.c">
+      <Filter>Tartini</Filter>
+    </ClCompile>
+    <ClCompile Include="FFT\kiss_fft\kiss_fft.c">
+      <Filter>FFT</Filter>
+    </ClCompile>
+    <ClCompile Include="FFT\kiss_fft\tools\kiss_fftr.c">
+      <Filter>FFT</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenTunerCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenTunerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Support\BscBblDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Support\cBscFileVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenTuner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenTunerCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenTunerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Testing\WaveFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FFT\fftw3.h">
+      <Filter>Tartini\h</Filter>
+    </ClInclude>
+    <ClInclude Include="tartini_core\tartinilib\tartini_core.h">
+      <Filter>Tartini\h</Filter>
+    </ClInclude>
+    <ClInclude Include="FFT\kiss_fft\_kiss_fft_guts.h">
+      <Filter>FFT</Filter>
+    </ClInclude>
+    <ClInclude Include="FFT\kiss_fft\kiss_fft.h">
+      <Filter>FFT</Filter>
+    </ClInclude>
+    <ClInclude Include="FFT\kiss_fft\tools\kiss_fftr.h">
+      <Filter>FFT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenTuner.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\0.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\1.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\2.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\3.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\4.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\5.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\6.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\7.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\8.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\9.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\a.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\aSharp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\b.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\c.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\cSharp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\d.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\dSharp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\e.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\f.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\fSharp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\g.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\gSharp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Hz.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Lemp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\LFul.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\MEmp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\MFul.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\oTuner.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\REmp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\RFul.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\volume.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\x.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\0m.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\1m.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\2m.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\3m.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\4m.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\5m.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\6m.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\7m.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\8m.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\9m.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\OpenTuner.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\OpenTuner.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

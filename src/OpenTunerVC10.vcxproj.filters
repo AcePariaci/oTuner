@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{cf904e3b-ba24-497e-b882-3cc5d70b5f1a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{18f8a034-e261-4f5f-b121-173262ded6dd}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e658a513-7455-444f-a26e-ddf2d6aebfd8}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\BMPs">
+      <UniqueIdentifier>{cdf4c6b9-ed86-488d-943a-7b4c634a8f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{1a6ab6ba-3aae-4d8a-9773-0288878f9973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tartini">
+      <UniqueIdentifier>{221762d6-d17a-492e-8fc6-6727f934769d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tartini\h">
+      <UniqueIdentifier>{78cf4e97-d855-4c41-a8aa-dd2323c22e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FFT">
+      <UniqueIdentifier>{4c0a33d6-c119-4adc-a663-e58a07e02a6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenTuner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Testing\WaveFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Support\BscBblDlg.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Support\cBscFileVersion.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="tartini_core\tartinilib\tartini_core.c">
+      <Filter>Tartini</Filter>
+    </ClCompile>
+    <ClCompile Include="FFT\kiss_fft\kiss_fft.c">
+      <Filter>FFT</Filter>
+    </ClCompile>
+    <ClCompile Include="FFT\kiss_fft\tools\kiss_fftr.c">
+      <Filter>FFT</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenTunerCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenTunerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Support\BscBblDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Support\cBscFileVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenTuner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenTunerCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenTunerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Testing\WaveFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FFT\fftw3.h">
+      <Filter>Tartini\h</Filter>
+    </ClInclude>
+    <ClInclude Include="tartini_core\tartinilib\tartini_core.h">
+      <Filter>Tartini\h</Filter>
+    </ClInclude>
+    <ClInclude Include="FFT\kiss_fft\_kiss_fft_guts.h">
+      <Filter>FFT</Filter>
+    </ClInclude>
+    <ClInclude Include="FFT\kiss_fft\kiss_fft.h">
+      <Filter>FFT</Filter>
+    </ClInclude>
+    <ClInclude Include="FFT\kiss_fft\tools\kiss_fftr.h">
+      <Filter>FFT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\0m.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\1m.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\2m.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\3m.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\4m.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\5m.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\6m.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\7m.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\8m.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\9m.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OpenTuner.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OpenTuner.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\0.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\1.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\2.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\3.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\4.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\5.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\6.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\7.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\8.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\9.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\a.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\aSharp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\b.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\c.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\cSharp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\d.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\dSharp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\e.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\f.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\fSharp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\g.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\gSharp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\Hz.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\Lemp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\LFul.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\MEmp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\MFul.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\oTuner.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\REmp.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\RFul.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\volume.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+    <None Include="res\x.bmp">
+      <Filter>Resource Files\BMPs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenTuner.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

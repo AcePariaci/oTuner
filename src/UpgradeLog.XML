@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OpenTuner_wce">
+</Property><Property Name="Fichier solution" Value="C:\Users\Ace vi Pariaci\Downloads\oTuner_Source_Code_for_Programmers\oTuner\src\OpenTuner_wce.sln">
+</Property><Property Name="Date" Value="jeudi 10 juillet 2014">
+</Property><Property Name="Time" Value="16:11:33">
+</Property></Properties><Event ErrorLevel="0" Project="OpenTuner_wce" Source="OpenTuner_wce.vcp" Description="Converting project file 'C:\Users\Ace vi Pariaci\Downloads\oTuner_Source_Code_for_Programmers\oTuner\src\OpenTuner_wce.vcp'.">
+</Event><Event ErrorLevel="2" Project="OpenTuner_wce" Source="OpenTuner_wce.vcp" Description="Unable to convert project.&#xA;Please make sure this is a valid Visual C++ 6.0 project.">
+</Event><Event ErrorLevel="2" Project="OpenTuner_wce" Source="OpenTuner_wce.vcp" Description="La mise à niveau du projet a échoué.">
+</Event><Event ErrorLevel="3" Project="OpenTuner_wce" Source="OpenTuner_wce.vcp" Description="Non convertie">
+</Event><Event ErrorLevel="2" Project="" Source="OpenTuner_wce.vcp" Description="La mise à niveau du projet a échoué.">
+</Event></UpgradeLog>
